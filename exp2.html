@@ -15,12 +15,24 @@
             <form action="new.html" method="get">
                 <h3><label> Name <input type="text" name="name"></label></h3>
                 <h3><label> Address <input type="text" name="name"></label></h3>
-                <h3><label> Contact No. <input type="text" name="name"></label></h3>
+                <h3><label> Contact No. <input type="tel" name="name"></label></h3>
+                <h3><label> Gender: </label></h3>
+                <label>Male<input type="checkbox" name="name"></label>
+                <label>Female<input type="checkbox" name="name"></label>
                 <h3><label> Tagline(on tshirt) <input type="text" name="name"></label></h3>
-                <h3><label> Colour <input type="text" name="name"></label></h3>
-                <h3><label> Size <input type="text" name="name"></label></h3>
+                <h3><label> Colour <input type="color" name="name"></label></h3>
+                <h3><label for="Size" >Size:</label></h3>
+                <select id="size" name="size" required>
+                    <option value="">select size</option>
+                    <option value="xs">xs</option>
+                    <option value="s">s</option>
+                    <option value="l">l</option>
+                    <option value="xl">xl</option>
+                    <option value="xxl">xxl</option>
+                    <option value="xxxl">xxxl</option>
+                </select>
                 <h3><label> Quantity: <input type="text" name="name"></label></h3>
-                <h3><label> Date(until required) <input type="text" name="name"></label></h3>
+                <h3><label> Date(until required) <input type="date" name="name"></label></h3>
                 
                 <input type="submit">
             </form>
